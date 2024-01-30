@@ -1,0 +1,31 @@
+h1 {
+  color: whitesmoke;
+  background-color: #388697;
+  border: 5px solid #eabe7c;
+  padding: 40px;
+  margin-top: px;
+}
+h2 {
+  color: #f4d0cc;
+  border: 2px dashed #f4d06f;
+  background-color: #737bba;
+  padding: 15px;
+  margin-right: 250px;
+  margin-top: 5px;
+}
+/*body {
+  color: #ece4b7;
+  background-color: #dd6031;
+}*/
+ul {
+  background-color: #f6c5af;
+  margin-right: 250px;
+  border: 2px dashed #f9dc5c;
+  color: #0a100d;
+}
+ol {
+  background-color: #3ccd1b81;
+  margin: top 12px;
+  margin-right: 250px;
+  color: #100b00;
+}
