@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      /* I couldn't figure out how to get the image to not stretch out the background of the lists/be cleanly side by side */
+      .column {
+        float: right;
+        width: 50%;
+        padding: 20px;
+      }
       body {
         background-color: #dd6031;
         color: #dbd3ad;
@@ -13,8 +19,14 @@
     <link rel="stylesheet" href="stylization.css" />
   </head>
   <body>
-    <h1>Mac's Grocery List (aesthetics not withstanding)</h1>
+    <h1>Mac's Grocery List (aesthetics notwithstanding)</h1>
+    <section>
     <h2>Snacks</h2>
+    <img
+      src="/block06/food-and-liquor/Assets/Pimento-Cheese-Square.jpg"
+      alt="cucumbers"
+      style="float: right; width: 200px; height: 200px; margin: 30px"
+    />
     <ul>
       <li>dried mangos</li>
       <li>Russet Potato Chips</li>
@@ -30,7 +42,13 @@
       <li>Boneless, Skinless Chicken Thighs</li>
       <li>Milk</li>
     </ul>
-    <h2 style="color: #f9dc5c">Priorities</h2>
+    <img
+      src="/block06/food-and-liquor/Assets/cucumbers.jpg"
+      alt="cucumbers"
+      style="float: right; width: 200px; height: 200px; margin: 20px"
+    />
+  </section> 
+    <h3 style="color: #f9dc5c">Priorities</h2>
     <ol style="color: #f6c5af">
       <li>Get prescription from pharmacy</li>
       <li>Get Snacks</li>
